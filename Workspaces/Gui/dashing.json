@@ -1,0 +1,21 @@
+{
+    "name": "GNUstep Gui (Application Kit)",
+    "package": "GNUstepGui",
+    "index": "Reference/Gui.html",
+    "selectors": {
+        "a[name^=method\\$]": "Method",
+        "a[name^=constant\\$]": "Constant",
+        "a[name^=class\\$]": "Class",
+        "a[name^=type\\$]": "Type",
+        "a[name^=function\\$]": "Function",
+        "a[name^=macro\\$]": "Macro",
+        "a[name^=variable\\$]": "Variable",
+        "a[name^=title\\$]": "Guide",
+        "a[name^=ivariable\\$]": "Value"
+    },
+    "ignore": [
+    ],
+    "icon32x32": "",
+    "allowJS": false,
+    "ExternalURL": ""
+}
