@@ -36,7 +36,7 @@ dashing create
         "a[name^=macro\\$]": "Macro",
         "a[name^=variable\\$]": "Variable",
         "a[name^=title\\$]": "Guide",
-        "a[name^=ivariable\\$]": "Value"
+        "a[name^=ivariable\\$]": "Instance Variable"
     },
     "ignore": [
     ],

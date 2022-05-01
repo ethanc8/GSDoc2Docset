@@ -1,0 +1,21 @@
+{
+    "name": "GNUstep Gui Additons",
+    "package": "GNUstepGuiAdditions",
+    "index": "Reference/GuiAdditions.html",
+    "selectors": {
+        "a[name^=method\\$]": "Method",
+        "a[name^=constant\\$]": "Constant",
+        "a[name^=class\\$]": "Class",
+        "a[name^=type\\$]": "Type",
+        "a[name^=function\\$]": "Function",
+        "a[name^=macro\\$]": "Macro",
+        "a[name^=variable\\$]": "Variable",
+        "a[name^=title\\$]": "Guide",
+        "a[name^=ivariable\\$]": "Instance Variable"
+    },
+    "ignore": [
+    ],
+    "icon32x32": "",
+    "allowJS": false,
+    "ExternalURL": ""
+}
