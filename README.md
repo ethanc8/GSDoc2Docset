@@ -56,9 +56,14 @@ dashing build
 ```bash
 cp -r FoobarKit.docset ~/.local/share/Zeal/Zeal/docsets
 ```
+or for a Flatpak:
+```bash
+cp -r FoobarKit.docset ~/.var/app/org.zealdocs.Zeal/data/Zeal/Zeal/docsets/
+```
 
 ## Notes
 
 * Why GSDoc instead of ETDocGen?
     * ETDocGen doesn't have easily-parseable HTML output.
 * Manuals are not currently included, because I'm planning to migrate them to Sphinx.
+* It would be nice if we could convert this into Intersphinx format.
